@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s22285\\source\\repos\\kolos2pod2\\kolos2pod2\\kolos2pod2.csproj": {}
+    "C:\\Users\\s22285\\source\\repos\\kol\\kolos2pod2\\kolos2pod2\\kolos2pod2\\kolos2pod2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s22285\\source\\repos\\kolos2pod2\\kolos2pod2\\kolos2pod2.csproj": {
+    "C:\\Users\\s22285\\source\\repos\\kol\\kolos2pod2\\kolos2pod2\\kolos2pod2\\kolos2pod2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s22285\\source\\repos\\kolos2pod2\\kolos2pod2\\kolos2pod2.csproj",
+        "projectUniqueName": "C:\\Users\\s22285\\source\\repos\\kol\\kolos2pod2\\kolos2pod2\\kolos2pod2\\kolos2pod2.csproj",
         "projectName": "kolos2pod2",
-        "projectPath": "C:\\Users\\s22285\\source\\repos\\kolos2pod2\\kolos2pod2\\kolos2pod2.csproj",
+        "projectPath": "C:\\Users\\s22285\\source\\repos\\kol\\kolos2pod2\\kolos2pod2\\kolos2pod2\\kolos2pod2.csproj",
         "packagesPath": "C:\\Users\\s22285\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s22285\\source\\repos\\kolos2pod2\\kolos2pod2\\obj\\",
+        "outputPath": "C:\\Users\\s22285\\source\\repos\\kol\\kolos2pod2\\kolos2pod2\\kolos2pod2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -53,6 +53,8 @@
               "version": "[5.0.17, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.17, )"
             },

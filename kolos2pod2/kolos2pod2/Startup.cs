@@ -1,7 +1,10 @@
+using kolos2pod2.Models;
+using kolos2pod2.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -26,7 +29,9 @@ namespace kolos2pod2
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddDbContext<MainDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("Default")));
+            services.AddScoped<IDbService, DbService>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

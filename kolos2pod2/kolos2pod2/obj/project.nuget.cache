@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F0z1Pc2kIXreq8gySIjTxjxE85Hybr1FG3bX8KcdcextYnUBpkEmyB7KSvqABon70ug8m4xaY/kYUtCagwyuyA==",
+  "dgSpecHash": "/Kjc0UTWWfhBYRfz/WvgDxhASnhffUD3E+NmeLPQvNhkxe9/zryAZ0DgCkdayTSZSp7F6ELZcL2o24Q+p3LudA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\s22285\\source\\repos\\kolos2pod2\\kolos2pod2\\kolos2pod2.csproj",
+  "projectFilePath": "C:\\Users\\s22285\\source\\repos\\kol\\kolos2pod2\\kolos2pod2\\kolos2pod2\\kolos2pod2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\s22285\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\s22285\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
