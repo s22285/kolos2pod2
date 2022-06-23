@@ -44,7 +44,7 @@ namespace kolos2pod2.Services
         public async Task<bool> CheckMember(int MemberID)
         {
             var tracks = _context.Organization.Where(mt => mt.OrganizationID.Equals(MemberID)).Select(e => e.OrganizationID)
-                .Intersect(_context.Member.Where(t => t.MemberID.Equals(null)).Select(t => t.MemberID));
+                .Intersect(_context.Member.Where(t => t.OrganizationID.Equals(null)).Select(t => t.MemberID));
             return await tracks.AnyAsync();
         }
 

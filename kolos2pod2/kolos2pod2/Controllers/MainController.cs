@@ -16,7 +16,7 @@ namespace kolos2pod2.Controllers
             _dbService = dbService;
         }
 
-        [HttpGet("{idMusician}")]
+        [HttpGet("{TeamId}")]
         public async Task<IActionResult> GetTeam(int TeamID)
         {
             if (!await _dbService.CheckTeam(TeamID))
